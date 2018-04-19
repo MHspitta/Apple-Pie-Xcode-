@@ -96,7 +96,7 @@ class ViewController: UIViewController {
             var guessedWord = ""
             
             // Iterate over word
-            for letter in word.characters {
+            for letter in word {
                 
                 // Check if letter pressed is in the words
                 if guessedLetters.contains(letter) {
@@ -118,7 +118,7 @@ class ViewController: UIViewController {
             guessedLetters.append(letter)
             
             // Check if character is correct
-            if !word.characters.contains(letter) {
+            if !word.contains(letter) {
                 
                 // decrement incorrectMovesRemaining
                 incorrectMovesRemaining -= 1
@@ -167,7 +167,7 @@ class ViewController: UIViewController {
         var letters = [String]()
         
         // Append the correct letters to the currentGame/formatted word
-        for letter in currentGame.formattedWord.characters {
+        for letter in currentGame.formattedWord {
             letters.append(String(letter))
         }
         
