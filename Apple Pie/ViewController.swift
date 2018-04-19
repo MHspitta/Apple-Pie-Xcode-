@@ -12,7 +12,7 @@ import Foundation
 class ViewController: UIViewController {
     
     // list of words to play with
-    var listOfWords = ["banaan", "sendnudes", "lol", "mhspitta", "test", "kanibaal", "ijs", "zomer", "techno", "moon", "ezel", "rolex" , "apple"]
+    var listOfWords = ["banaan", "lol", "mhspitta", "test", "kanibaal", "ijs", "zomer", "techno", "moon", "sendnudes", "ezel", "rolex" , "apple"]
     
     // Max incorrect moves
     let incorrectMovesAllowed = 7

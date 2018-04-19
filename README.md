@@ -1,9 +1,12 @@
 # Apple-Pie-Xcode-
 
-Week 2 Xcode Apple Pie
+Week 2, Xcode,  Apple Pie, Michael Hu 
 
-De app werkt naar behoren. Het spelletje is vergelijkbaar met Galgje. 
-Raad het woord door op de letters te klikken. De apels in de boom geven aan hoeveel levens je nog over hebt.
-Veel plezier! 
+The game Apple Pie
+
+Everything works as I tested. The game is similar to "galgje".
+Printscreens can be found in the folder "doc".
+
+Enjoy!
 
 Michael 
